@@ -1,9 +1,8 @@
 package academy.domain;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.toList;
 
 class Library {
     private List<Book> books;
